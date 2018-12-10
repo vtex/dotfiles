@@ -1,0 +1,24 @@
+[user]
+	name = Developer
+	email = developer@vtex.com
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = /usr/bin/vim
+	ignorecase = false
+[color]
+	ui = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = simple
+[pull]
+	rebase = true
+[alias]
+	changelog = log --oneline --abbrev-commit --no-merges
+	graph = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(yellow)%h%C(reset) %s%C(reset) %C(dim white)<%an>%C(reset) %C(bold blue)%ar%C(reset)%C(bold yellow)%d%C(reset)'
+	unstage = reset HEAD --
+	uncommit = reset --soft HEAD~

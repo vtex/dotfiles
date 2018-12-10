@@ -1,0 +1,40 @@
+# Theme
+PKief.material-icon-theme
+azemoh.one-monokai
+lei.theme-chromodynamics
+
+# Languages
+TeddyDD.fish
+dbaeumer.vscode-eslint
+eg2.tslint
+joaompinto.asciidoctor-vscode
+
+# Extensions
+CoenraadS.bracket-pair-colorizer
+Zignd.html-css-class-completion
+donjayamanne.githistory
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+naumovs.color-highlight
+steoates.autoimport
+abusaidm.html-snippets
+akamud.vscode-caniuse
+anseki.vscode-color
+austin.code-gnu-global
+christian-kohler.path-intellisense
+eamodio.gitlens
+EditorConfig.EditorConfig
+HookyQR.beautify
+joelday.docthis
+kumar-harsh.graphql-for-vscode
+ms-vscode.azure-account
+ms-vscode.cpptools
+ms-vscode.csharp
+ms-vscode.Go
+msjsdiag.debugger-for-chrome
+Orta.vscode-jest
+PeterJausovec.vscode-docker
+richie5um2.vscode-sort-json
+skyapps.fish-vscode
+sysoev.vscode-open-in-github
+Tyriar.sort-lines
