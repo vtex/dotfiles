@@ -18,7 +18,11 @@ That's it.
 
 ## Quick start
 
-0. Download or clone this repo.
+0. Download or clone this repo into `~/dotfiles` (e.g. run the following command)
+```bash
+curl -sSL https://github.com/vtex/dotfiles/archive/master.zip > dotfiles.zip && unzip dotfiles.zip && mv dotfiles-master dotfiles && rm dotfiles.zip
+```
+
 1. Edit the file `git/.gitconfig` with your information (name and email)
 2. Edit the file `macos/setup.sh` with your desired COMPUTER_NAME
 3. Run `./bootstrap.sh`
@@ -32,7 +36,7 @@ That's it.
 
 ## Contributing to this dotfiles
 
-PR's are welcome, but focus on **not making this complex**, please.
+PR's are welcome, but focus on **keeping this simple**, please.
 
 ## Thanks
 
