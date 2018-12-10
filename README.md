@@ -18,16 +18,17 @@ That's it.
 
 ## Quick start
 
-0. Download or clone this repo into `~/dotfiles` (e.g. run the following command)
+1. Download or clone this repo into `~/dotfiles` (e.g. run the following command)
 ```bash
 curl -sSL https://github.com/vtex/dotfiles/archive/master.zip > dotfiles.zip && unzip dotfiles.zip && mv dotfiles-master dotfiles && rm dotfiles.zip
 ```
 
-1. Edit the file `git/.gitconfig` with your information (name and email)
-2. Edit the file `macos/setup.sh` with your desired COMPUTER_NAME
-3. Run `./bootstrap.sh`
-4. Enter your password
-5. Go grab a cup of coffee :coffee:
+2. Edit the file `git/.gitconfig` with your information (name and email)
+3. Edit the file `macos/setup.sh` with your desired COMPUTER_NAME
+4. Run `./bootstrap.sh` and enter your password
+5. Install Xcode extensions as prompted
+6. Run `./bootstrap.sh` and enter your password again
+7. Now, go grab a cup of coffee :coffee:
 
 ## After setup
 
