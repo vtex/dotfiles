@@ -371,4 +371,4 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
-success "FInished setting macOS defaults. Note that some of these changes require a logout/restart to take effect."
+success "Finished setting macOS defaults. Note that some of these changes require a logout/restart to take effect."
