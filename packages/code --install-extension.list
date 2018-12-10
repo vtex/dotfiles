@@ -2,13 +2,13 @@
 PKief.material-icon-theme
 azemoh.one-monokai
 lei.theme-chromodynamics
-
+#
 # Languages
 TeddyDD.fish
 dbaeumer.vscode-eslint
 eg2.tslint
 joaompinto.asciidoctor-vscode
-
+#
 # Extensions
 CoenraadS.bracket-pair-colorizer
 Zignd.html-css-class-completion
