@@ -34,7 +34,6 @@ brew 'ack'
 brew 'tree'
 
 cask 'bartender'
-cask 'brave'
 cask 'cleanmymac'
 cask 'daisydisk'
 cask 'dashlane'
