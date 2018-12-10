@@ -5,9 +5,6 @@ set -x -g TERM "xterm-256color"
 set -x -g LC_ALL en_US.UTF-8
 set -x -g LANG en_US.UTF-8
 
-# User bin folder
-set -x -g PATH ~/bin $PATH /usr/local/sbin
-
 # Yarn
 set -x -g PATH (yarn global bin) $PATH
 
