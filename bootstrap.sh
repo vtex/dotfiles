@@ -33,7 +33,8 @@ info "Installing XCode command line tools..."
 if xcode-select --print-path &>/dev/null; then
     success "XCode command line tools already installed."
 elif xcode-select --install &>/dev/null; then
-    success "Finished installing XCode command line tools."
+    success "Started installing XCode command line tools. Run bootstrap again once it's finished."
+    exit 0
 else
     error "Failed to install XCode command line tools."
 fi
