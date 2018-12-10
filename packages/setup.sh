@@ -9,6 +9,9 @@ COMMENT=\#*
 
 sudo -v
 
+info "Installing Brew..."
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 info "Installing Brewfile packages..."
 brew bundle
 success "Finished installing Brewfile packages."
