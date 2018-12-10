@@ -11,7 +11,9 @@ Installs and configures:
 - Other useful desktop apps (Clipy, Spectacle, Chrome, Slack, etc.)
 
 Each folder has a dedicated `setup.sh`. 
+
 The root `bootstrap.sh` runs everything. 
+
 That's it.
 
 **IMPORTANT: Don't forget to set up your details (steps 2 and 3)**
@@ -41,4 +43,5 @@ PR's are welcome, but focus on **keeping this simple**, please.
 ## Thanks
 
 This was based on https://github.com/rkalis/dotfiles
+
 Thanks for the smart bootstrap!
