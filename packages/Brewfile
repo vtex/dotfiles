@@ -11,7 +11,7 @@ brew 'yarn'
 
 cask 'clipy'
 cask 'google-chrome'
-cask 'google-drive'
+cask 'google-backup-and-sync'
 cask 'iterm2'
 cask 'postman'
 cask 'slack'
