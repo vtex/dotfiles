@@ -5,6 +5,21 @@ cd "$DIR"
 
 . scripts/functions.sh
 
+if grep Developer git/.gitconfig; then
+    error "Please change your name in git/.gitconfig"
+    exit 1
+fi
+
+if grep developer@vtex.com git/.gitconfig; then
+    error "Please change your email in git/.gitconfig"
+    exit 1
+fi
+
+if grep "COMPUTER_NAME=rio" macos/setup.sh; then
+    error "Please change your computer name in macos/setup.sh"
+    exit 1
+fi
+
 info "Prompting for sudo password..."
 if sudo -v; then
     # Keep-alive: update existing `sudo` time stamp until `setup.sh` has finished

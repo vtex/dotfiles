@@ -1,8 +1,5 @@
 #! /usr/bin/env bash
 
-mkdir -p $HOME/Library/Application\ Support/Spectacle/
-cp ./Spectacle/Shortcuts.json $HOME/Library/Application\ Support/Spectacle/Shortcuts.json
-
 #
 # Following settings from https://github.com/mathiasbynens/dotfiles/blob/master/.macos
 #

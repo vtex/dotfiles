@@ -7,6 +7,8 @@ cd "$DIR"
 
 . ../scripts/functions.sh
 
+mkdir $HOME/Projects
+
 info "Setting macOS defaults..."
 
 # Ask for the administrator password upfront
