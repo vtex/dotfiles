@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 # Taken from rkalis/dotfiles
 
-COMPUTER_NAME=rio
+COMPUTER_NAME=fSalesMacPro
 DIR=$(dirname "$0")
 cd "$DIR"
 
