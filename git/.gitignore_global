@@ -79,9 +79,6 @@ $RECYCLE.BIN/
 
 ## Plugin-specific files:
 
-# IntelliJ
-/out/
-
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -99,9 +96,6 @@ crashlytics-build.properties
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-## Build generated
-build/
-DerivedData
 
 ## Various settings
 *.pbxuser
