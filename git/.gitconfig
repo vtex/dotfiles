@@ -22,3 +22,15 @@
 	graph = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(yellow)%h%C(reset) %s%C(reset) %C(dim white)<%an>%C(reset) %C(bold blue)%ar%C(reset)%C(bold yellow)%d%C(reset)'
 	unstage = reset HEAD --
 	uncommit = reset --soft HEAD~
+	rc = rebase --continue
+	rs = rebase --skip
+	ra = rebase --abort
+	sync = !git tag -l | xargs git tag -d && git fetch -t
+	preparepr = "!f() { BRANCH=$(git rev-parse --abbrev-ref HEAD);git checkout master; git fetch && git rebase; git checkout \"$BRANCH\";git rebase master; }; f"
+	updatepr = "!f() { BRANCH=$(git rev-parse --abbrev-ref HEAD);git push --set-upstream origin -f \"$BRANCH\":\"$BRANCH\";}; f"
+	openpr = "!f() { ORG=$(git remote get-url origin | cut -d ":" -f2 | cut -d "/" -f1);BRANCH=$(git rev-parse --abbrev-ref HEAD); REPO=$(git ls-remote --get-url |cut -d / -f2) ;git push --set-upstream origin -f \"$BRANCH\":\"$BRANCH\"; echo -e \"https://github.com/$ORG/$REPO/compare/$BRANCH?expand=1\";}; f"
+ 
+[url "git@github.com:vtex-apps/"]
+    insteadOf = va:
+[url "git@github.com:vtex/"]
+    insteadOf = v:
