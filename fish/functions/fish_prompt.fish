@@ -3,11 +3,11 @@ function parse_vtex_json
 end
 
 function get_vtex_account
-  parse_vtex_json account
+  parse_vtex_json "\"account\""
 end
 
 function get_vtex_workspace
-  parse_vtex_json workspace
+  parse_vtex_json "\"workspace\""
 end
 
 function prompt_vtex
