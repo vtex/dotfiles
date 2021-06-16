@@ -1,5 +1,5 @@
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'buo/cask-upgrade'
 
