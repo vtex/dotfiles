@@ -21,7 +21,7 @@ cask 'visual-studio-code'
 
 brew 'coreutils'
 brew 'duti'
-brew 'findutils', args: ['with-default-names']
+brew 'findutils'
 brew 'gdb'
 brew 'glib'
 brew 'openssl'
